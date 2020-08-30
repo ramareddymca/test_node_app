@@ -2,7 +2,7 @@
 
 # ssh ec2-user@target_instance
 
-cd ~/test_node_app
+cd ~/node-app/test_node_app
 git pull origin master
 npm install
 npm install -g nodemon pm2
