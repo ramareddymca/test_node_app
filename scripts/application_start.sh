@@ -6,6 +6,8 @@ sudo chmod -R 777 /home/ec2-user/astro_code_deploy_app
 #navigate into our working directory where we have all our github files
 cd /home/ec2-user/astro_code_deploy_app
 
+echo "landed on astro_code_deploy_app"
+
 #add npm and node to path
 
 
