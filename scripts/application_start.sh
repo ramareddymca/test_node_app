@@ -14,6 +14,4 @@ echo "landed on astro_code_deploy_app"
 
 
 #start our node app in the background
-node index.js
-#> app_index.out.log 
-#2> app_idex.err.log < /dev/null 
+node index.js > app.out.log 2> app.err.log < /dev/null & 
