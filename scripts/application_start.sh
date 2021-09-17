@@ -11,8 +11,8 @@ echo "landed on astro_code_deploy_app"
 #add npm and node to path
 
 #install node modules
-# start node
-node index.js
+
 
 #start our node app in the background
-node index.js > app_index.out.log 2> app_idex.err.log < /dev/null 
+node index.js > app_index.out.log 
+#2> app_idex.err.log < /dev/null 
